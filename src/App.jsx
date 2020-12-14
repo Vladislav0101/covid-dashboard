@@ -1,15 +1,15 @@
 import React from "react";
 import { Header } from './Components/Header';
-// import Summary from "./Components/Summary";
-import Test from "./Components/Test";
+import Summary from "./Components/Summary";
+// import Test from "./Components/Test";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Header />
-        {/* <Summary /> */}
-        <Test />
+        
+        {/* <Test /> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -23,6 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Summary />
     </div>
   );
 }
