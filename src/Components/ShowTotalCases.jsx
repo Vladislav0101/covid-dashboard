@@ -1,10 +1,8 @@
-export const ShowTotalCases = (elem) => {
-  
-  console.log("show total cases", elem.TotalConfirmed);
+export const ShowTotalCases = (props) => {
   return (
-      <div className = 'total-cases'>
-          <p>Total Cases</p>
-          <p>{elem.TotalConfirmed}</p>
-      </div>
+    <div className="total-cases">
+      <p>Total Cases</p>
+      <p>{props.currentCountryTotalConfirmed}</p>
+    </div>
   );
-}; 
+};
